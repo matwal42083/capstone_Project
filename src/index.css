@@ -1,0 +1,294 @@
+
+
+
+
+
+/* extra styles for logo later on 
+
+   .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+extra could be usful later
+.read-the-docs {
+  color: #888;
+}
+
+Look into to see how it works later
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+other styles
+
+.fade-enter, .fade-exit-active {
+  opacity: 0;
+}
+.fade-enter-active, .fade-exit {
+  opacity: 1;
+}
+.fade-enter-active, .fade-exit-active {
+  transition: opacity 300ms;
+}
+
+<CSSTransition
+  in={ false }
+  timeout={300}
+  classNames="fade"
+  unmountOnExit>
+   <div>{count}</div>
+</CSSTransition>
+                        */ 
+
+                        /* this is index.css file its path is ./src/index.css, Where most 
+of the styles to the project resides in.*/
+
+/* for the viewport to be filled
+then will @media Query for different views
+for screen sizes*/
+/* full page body styles */
+
+
+
+/*App Styles for Jacks ice cream*/
+body {
+  font-family: 'Lobster', cursive;
+  background-color: black;
+  text-align: center;
+}
+
+.HeaderContainer{
+  background: linear-gradient(-55deg, rgba(81, 190, 245, 0.85)25%, rgba(16, 234, 241, 0.766)50%, rgba(36, 179, 241, 0.835)75%, rgba(137, 178, 232, 0.86)100%);
+  border: 3px solid rgb(255, 0, 217);
+  border-radius: 0px 10px 0px 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Lobster', cursive;
+ 
+}
+
+.HeaderContainer h1 {
+  font-size: 50px;
+  color: rgb(227, 0, 0);
+
+}
+   
+.navBar {
+  background: linear-gradient(45deg, rgb(234, 0, 191) 25%, rgb(224, 90, 206)50%, rgb(245, 121, 218)75%, rgb(232, 2, 182)100%); 
+  border: 2px solid black;
+  margin: 20px 0px 20px 0px;
+
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0px 15px 0px 15px;
+  font-family: 'Anton', sans-serif;
+}
+
+.FooterContainer {
+  background-color: #f508f1;
+}
+
+
+
+
+
+
+/*Home page display styles*/
+
+.Homepage{
+ color: white
+}
+
+.material-icons {
+  color:rgb(255, 0, 170);
+  margin-left: 1000px;
+
+}
+
+.Menupage {
+  width:auto;
+  height: auto;
+  z-index: 1;
+}
+
+.MenuVeiw {
+  max-height: auto;
+  max-width: auto;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+/* App.css */
+
+/* Style for the container */
+.contain {
+  padding: 20px;
+  margin: 50px 0px 0px 0px;
+  
+}
+
+/* Style for the navigation bar */
+.navBar {
+  background: linear-gradient(-55deg, rgb(179, 75, 172)25%, rgb(208, 34, 196)50%, rgb(137, 8, 135)75%, rgb(243, 100, 234)100%);
+  width: auto;
+  height: auto;;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid rgb(0, 247, 255);
+}
+
+
+.Menupage {
+  color:white;
+
+}
+.Orderpage {
+  color:white;
+
+}
+.Trackpage {
+  color:white;
+
+}
+
+/* Style for the links */
+.navBar a {
+  text-decoration: none;
+  color: rgb(247, 244, 244);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px auto;
+  padding: 8px 12px;
+  border:3px solid rgb(0, 207, 248);
+  border-radius: 10px;
+  background-color: #f705df;
+  box-shadow: 4px 4px 4px rgba(147, 0, 115, 0.797);
+  transition: border-color, background-color, box-shadow 0.1s ease-in-out 0.1s;
+}
+
+/* Hover effect for the links */
+.navBar a:hover {
+  color: rgb(226, 20, 209);
+  background-color: #1de4eb;
+  border:3px solid rgb(226, 20, 209);
+  box-shadow: 8px 8px 4px 3px rgba(147, 0, 115, 0.797);
+  z-index: 10;
+}
+
+
+
+
+/* styles.css */
+
+
+
+
+
+.footerBorder {
+  color: white;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  background: linear-gradient(-55deg, rgb(179, 75, 172)25%, rgb(208, 34, 196)50%, rgb(137, 8, 135)75%, rgb(243, 100, 234)100%);
+  margin-bottom: 10px;
+  padding: 5px 0px 5px 0px;
+}
+
+
+/* Styles for home page */
+.Homepage {
+  color:white;
+  border: 3px solid rgb(255, 13, 213);
+  border-radius: 4px;
+ }
+.HomeHeaderContainer {
+  background: linear-gradient(-45deg, rgb(12, 230, 250)25%, rgb(3, 235, 248)50%, rgb(15, 156, 161)75%, rgb(13, 150, 209)100%);
+}
+
+button {
+  margin: 15px 15px 15px 15px;
+}
+
+button {
+  border-radius: 5px;
+  color: white;
+  border: 3px solid rgb(255, 13, 213);
+  
+  padding: 5px 10px; 
+  font-size: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #57abd5dd;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(134, 133, 133, 0.678);
+  transition: border-color, background-color, box-shadow 0.1s;
+}
+button:hover {
+  background-color: #e20fc6;
+  border-color: #15b5d8;
+  box-shadow: 8px 8px 8px rgba(199, 198, 198, 0.289);
+  color:rgb(65, 192, 231);
+
+}
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+ display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+ 
+
+
+*/
